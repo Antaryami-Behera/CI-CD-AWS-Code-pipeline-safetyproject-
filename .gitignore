@@ -5,3 +5,4 @@ logs
 .env
 docs
 serviceAccountKey.json
+dist-health/

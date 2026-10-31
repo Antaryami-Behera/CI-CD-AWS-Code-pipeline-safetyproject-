@@ -5,7 +5,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/src/index.js",
-    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts"
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "build:health": "tsc -p tsconfig.health.json",
+    "start:health": "node dist-health/health.js"
   },
   "keywords": [],
   "author": "",
